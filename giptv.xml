@@ -1,0 +1,67 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<tv date="20250822120625 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/11817/20250822.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=11817&date=20250822&timezone=None">
+<channel id="11817">
+<display-name lang="Philippines">CHANNEL NEWS ASIA</display-name>
+<icon src=""/>
+</channel>
+<programme channel="11817" start="20250822020000 +0000" stop="20250822030000 +0000">
+<title lang="zh">Insight</title>
+<desc>Insight investigates and analyses topical issues that impact Asia and the rest of the world.x000D.</desc>
+<date>2025-08-22</date>
+</programme>
+<programme channel="11817" start="20250822030000 +0000" stop="20250822050000 +0000">
+<title lang="zh">Asia Now</title>
+<desc>Live Nonstop breaking stories, expert analysis and extensive news coverage every hour.</desc>
+<date>2025-08-22</date>
+</programme>
+<programme channel="11817" start="20250822050000 +0000" stop="20250822053000 +0000">
+<title lang="zh">Innovations That Matter</title>
+<desc>What makes Singapores oldest university one of the nations largest volunteer forces?</desc>
+<date>2025-08-22</date>
+</programme>
+<programme channel="11817" start="20250822053000 +0000" stop="20250822060000 +0000">
+<title lang="zh">CNA Correspondent</title>
+<desc>South Korea has sent thousands of children abroad under a flawed adoption system, which saw babies taken from their parents. Now many are beginning an often fruitless search for their birth families.</desc>
+<date>2025-08-22</date>
+</programme>
+<programme channel="11817" start="20250822060000 +0000" stop="20250822080000 +0000">
+<title lang="zh">Asia Now</title>
+<desc>Live Nonstop breaking stories, expert analysis and extensive news coverage every hour.</desc>
+<date>2025-08-22</date>
+</programme>
+<programme channel="11817" start="20250822080000 +0000" stop="20250822090000 +0000">
+<title lang="zh">Hidden Histories</title>
+<desc>What lies beneath Singapores polished exterior? Reuben Dhanaraj explores the ruins of Fort Serapong and Tanglin Barracks, uncovering hidden tales of war, resilience, and survival.</desc>
+<date>2025-08-22</date>
+</programme>
+<programme channel="11817" start="20250822090000 +0000" stop="20250822090200 +0000">
+<title lang="zh">Headline News</title>
+<desc>Live The latest top stories of the hour.</desc>
+<date>2025-08-22</date>
+</programme>
+<programme channel="11817" start="20250822090200 +0000" stop="20250822093000 +0000">
+<title lang="zh">Talking Point</title>
+<desc>With a fresh approach to tackling the issues of the day, Talking Point investigates a current issue or event, offering different perspectives to local stories and reveals how it all affects you.</desc>
+<date>2025-08-22</date>
+</programme>
+<programme channel="11817" start="20250822093000 +0000" stop="20250822100000 +0000">
+<title lang="zh">A Street Like This</title>
+<desc>Spancer stretches the meaning of street when he visits Maravanthuruthu, a picturesque village in Kerala that has undergone an enormous transformation to become a poster child for sustainability.</desc>
+<date>2025-08-22</date>
+</programme>
+<programme channel="11817" start="20250822100000 +0000" stop="20250822110000 +0000">
+<title lang="zh">East Asia Tonight</title>
+<desc>Live Spotlight on East Asia, a region steeped in history and now helping to write the future of our world. Well break down the key stories and explain why they matter.</desc>
+<date>2025-08-22</date>
+</programme>
+<programme channel="11817" start="20250822110000 +0000" stop="20250822120000 +0000">
+<title lang="zh">Born in 1965</title>
+<desc>Gurmit Singh continues his journey exploring marriage, friendship, and service leading him to Punjab, where he reflects on the importance of community and relationships in ones golden years.</desc>
+<date>2025-08-22</date>
+</programme>
+<programme channel="11817" start="20250822120000 +0000" stop="20250823000000 +0000">
+<title lang="zh">Asia Tonight</title>
+<desc>Live CNA correspondents bring you the top stories of the day with live reports and interviews to keep you uptodate on the days events.</desc>
+<date>2025-08-22</date>
+</programme>
+</tv>
