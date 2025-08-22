@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic M3U Stremio Addon</title>
+<style>
+body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+h1 { text-align: center; }
+input, button { padding: 10px; width: 80%; margin: 10px auto; display: block; }
+ul { list-style: none; padding: 0; }
+li { background: #fff; margin: 5px 0; padding: 10px; border-radius: 5px; display: flex; align-items: center; }
+li img { width: 40px; height: 40px; margin-right: 10px; }
+a { text-decoration: none; color: #333; flex-grow: 1; }
+</style>
+</head>
+<body>
+
+<h1>Dynamic M3U Stremio Addon</h1>
+<input type="text" id="m3uUrl" placeholder="Enter M3U URL">
+<button onclick="loadChannels()">Load Channels</button>
+
+<ul id="channels"></ul>
+
+<script>
+async function loadChannels() {
+    const urlInput = document.getElementById('m3uUrl').value;
+    if (!urlInput) return alert('Please enter an M3U URL');
+    
+    const encodedUrl = encodeURIComponent(urlInput);
+    const apiUrl = `/catalog?url=${encodedUrl}`;
+    
+    try {
+        const res = await fetch(apiUrl);
+        const data = await res.json();
+        const ul = document.getElementById('channels');
+        ul.innerHTML = '';
+
+        if (!data.metas || data.metas.length === 0) {
+            ul.innerHTML = '<li>No channels found</li>';
+            return;
+        }
+
+        data.metas.forEach(channel => {
+            const li = document.createElement('li');
+            const img = document.createElement('img');
+            img.src = channel.poster || 'https://via.placeholder.com/40';
+            const a = document.createElement('a');
+            a.href = `/stream?url=${encodedUrl}&channelId=${channel.id}`;
+            a.target = '_blank';
+            a.textContent = channel.name;
+            li.appendChild(img);
+            li.appendChild(a);
+            ul.appendChild(li);
+        });
+    } catch (err) {
+        alert('Error loading channels');
+        console.error(err);
+    }
+}
+</script>
+
+</body>
+</html>
